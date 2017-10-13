@@ -1,0 +1,21 @@
+{
+  "name": "douban",
+  "authors": [
+    "kelier <635073826@qq.com>"
+  ],
+  "description": "a easy douban description demo",
+  "main": "",
+  "keywords": [
+    "movie"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

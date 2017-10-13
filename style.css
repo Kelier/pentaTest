@@ -1,0 +1,277 @@
+/*全局*/
+html, body, .main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+a:link {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color: #5ca2c7;
+    font-size: smaller;
+    text-decoration: none;
+    margin-right:5px;
+}
+
+.right-body h6 {
+    margin-left: 40px;
+    color: #072;
+    margin-bottom: 10px;
+    line-height: 150%;
+    font-size: small;
+}
+
+.main {
+    margin: 20px 200px;
+}
+
+.des-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.des-title h3:nth-child(2) {
+    color: #a3abab;
+}
+
+.des-body {
+    display: flex;
+}
+
+.body-1, .body-2, .body-3 {
+    display: flex;
+}
+
+.body-1 {
+    width: 20%;
+}
+
+.body-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.body-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: #b2b2b2;
+    font-size: small;
+}
+
+.body-2 div{
+    display: flex;
+}
+
+.body-3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #b2b2b2;
+    font-size: small;
+}
+
+.star-rate {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px
+}
+.star-rate div{
+    display: flex;
+    
+}
+
+.star-height{
+    height: 15px;
+    margin-left:10px;
+    background: #f3cb81;
+}
+.film1-a{
+    margin:0 5px;
+}
+
+.left-body, .right-body {
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+}
+
+.left-body {
+    width: 70%;
+}
+
+.left-body label, .right-body label {
+    font-weight: 400;
+}
+
+.right-body {
+    width: 30%;
+}
+
+/*left body*/
+.movie-des {
+    height: 40%;
+}
+
+.movie-make {
+    height: 10%;
+    margin: 10px 0;
+}
+
+.make-title {
+    margin: 5px 0;
+    margin-bottom: 10px;
+}
+
+.make-title button {
+
+    background: #fbd9b7;
+    font-size: smaller;
+    height: 25px;
+    line-height: 1em;
+    border: 1px solid #eabcbc;
+
+}
+
+.make-title span {
+    font-size: small;
+}
+
+.movie-word {
+    height: 20%;
+}
+
+.movie-act {
+    height: 30%;
+}
+
+.movie-add-1 {
+    height: 30%;
+}
+
+.movie-add-2 {
+    height: 70%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card-block {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card-block h6:nth-child(2) {
+    color: #b9b0b0;
+    font-weight: 100;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .card-text {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-actbody {
+    display: flex;
+}
+
+.intro p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: smaller;
+    text-indent: 2em;
+}
+
+/*right body*/
+#subject-doulist ul {
+    list-style: none;
+}
+
+#subject-doulist li {
+    border-top: 1px dashed #DDD;
+    font-size: smaller;
+    margin: 5px 0;
+}
+
+#subject-doulist ul li:last-child {
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+#subject-doulist span {
+    font-size: smaller;
+}
+
+#subject-doulist {
+    width: 300px;
+    height: 192px;
+    margin-top: 50px;
+}
+
+#subject-others-interests {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.ticket-btn {
+    color: #fff !important;
+}
+
+.add-1-title {
+    background-color: #F0F3F5;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.add-1-tainer {
+    background-color: #268dcd;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    width: 160px;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.label-weck {
+    line-height: 24px;
+    letter-spacing: -0.31em;
+    display: block;
+}
+
+.label-weck a {
+    display: inline-block;
+    background: #eee;
+    letter-spacing: normal;
+    margin: 0 8px 8px 0;
+    padding: 5px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 2px;
+    color: #5ca2c7;
+}
+
+.label-booth {
+
+}
