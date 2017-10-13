@@ -17,7 +17,9 @@ $(function () {
                 $(".movie-actbody").find(".card")[i].children[1].children[1].innerHTML = n.role;
             });
 
-
+            /*
+            * 由于时间限制，写得比较蠢自己改下咯
+            * */
             $(".body-2")[0].children[0].children[0].innerHTML=data.movie[0].main;
             $(".body-2")[0].children[1].children[0].innerHTML=data.movie[1].book;
             $(".body-2")[0].children[2].children[0].innerHTML=data.movie[2].play;
