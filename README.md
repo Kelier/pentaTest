@@ -3,4 +3,6 @@
 a static website
 
 第一个作业，效果如下
-![image](https://github.com/Kelier/pentaTest/view/view.jpg)                                                                                        
+![预览](https://github.com/Kelier/pentaTest/blob/master/view/view.jpg)
+
+<img src="view/view.jpg">                                                                                        
